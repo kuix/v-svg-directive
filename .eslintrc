@@ -1,0 +1,8 @@
+{
+  extends: ["vue"],
+  rules: {
+    "semi": 0,
+    "indent": ["error", 4],
+    "space-before-function-paren": 0
+  },
+}

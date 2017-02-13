@@ -1,0 +1,47 @@
+{
+  "name": "v-svg-directive",
+  "version": "1.0.0",
+  "description": "A simple Vue 2 directive to make referencing SVG symbol sprites easier.",
+  "main": "dist/v-svg-directive.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress",
+
+    "build:lint-js": "eslint ./index.js",
+    "build:js": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "build": "npm-run-all build:*",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuix/v-svg-directive"
+  },
+  "author": "Peter Matkovsky, kuix.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuix/v-svg-directive/issues"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "svg",
+    "sprite",
+    "vuejs2",
+    "vue2",
+    "directive"
+  ],
+  "homepage": "https://github.com/kuix/v-svg-directive#readme",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "browser-sync": "^2.18.7",
+    "cross-env": "^3.1.4",
+    "eslint": "^3.15.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^2.0.1",
+    "npm-run-all": "^4.0.1",
+    "vue": "^2.1.10",
+    "webpack": "^2.2.1"
+  }
+}
