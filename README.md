@@ -1,5 +1,7 @@
 # v-svg-directive
 
+[![NPM version][npm-badge-image]][npm-badge-url]
+
 A simple Vue 2 directive to make referencing SVG symbol sprites easier.
 
 ## Install
@@ -80,3 +82,6 @@ This means that if your icon is named `my-icon`, you will need to use single quo
 ## Credit
 
 This directive is highly inspired by [Phunky's `vue-svg-directive`](https://github.com/Phunky/vue-svg-directive). We started using it in our projects, but ran into a few issues with it. Then Vue 2 came along, and we decided to "lazy-fork" it, and create a version that could be used in almost all of our projects.
+
+[npm-badge-image]: https://badge.fury.io/js/v-svg-directive.svg
+[npm-badge-url]: https://npmjs.org/package/v-svg-directive
