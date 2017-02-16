@@ -17,9 +17,9 @@ npm install v-svg-directive --save
 To use `v-svg-directive` in your project, use the [`Vue.use()`](https://vuejs.org/v2/api/#Vue-use) method to initialize it.
 
 ```js
-import vSvg from 'v-svg';
+import VSvg from 'v-svg-directive';
 
-Vue.use(vSvg, {
+Vue.use(VSvg, {
     path: '/images/icons.svg',
     prefix: 'icon-',
     class: 'icon'

@@ -1,6 +1,6 @@
 {
   "name": "v-svg-directive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple Vue 2 directive to make referencing SVG symbol sprites easier.",
   "main": "dist/v-svg-directive.js",
   "scripts": {

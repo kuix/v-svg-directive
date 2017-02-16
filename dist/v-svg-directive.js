@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["v-svg"] = factory();
+		exports["v-svg-directive"] = factory();
 	else
-		root["v-svg"] = factory();
+		root["v-svg-directive"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache

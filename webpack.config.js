@@ -5,7 +5,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: 'v-svg-directive.js',
-        library: 'v-svg',
+        library: 'v-svg-directive',
         libraryTarget: 'umd'
     },
     devtool: 'source-map',
